@@ -15,7 +15,7 @@ public class Main {
                 .addAnimal(new Dolphin("Снупи"))
                 .addAnimal(new Whale("Оушен"))
                 .addAnimal(new Parrot("Валли"))
-                .addAnimal(new Doctor("Василич"));
+                .addAnimal(new Doctor("Айболит"));
 
         System.out.println("All animals:");
         for (Animal a: vetClinic.getAllAnimals()) {
